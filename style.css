@@ -1,0 +1,155 @@
+/*Header & Footer*/
+span {
+	text-transform: uppercase;
+	color: violet;
+	display: block;
+	margin-top: 2.5em; 
+	margin-left: 10px; 
+	font-size: 11px;
+	opacity: 0.4;
+	letter-spacing: 0.07em;
+}
+section {
+	padding-top: 100px;
+}
+#footer {
+	margin-bottom: 0;
+	margin-top: 20px;
+	border-radius: 0;
+}
+.code.icon {
+	color: violet;
+}
+.social {
+	margin: 2em auto 4px auto;
+}
+.ui.menu .item{
+	padding-left: 27px;
+}
+#dropdown, #bottom_mobile {
+		display: none;
+	}
+
+/*About*/
+.title{
+	display: inline-block;
+	font-size: 38px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+.header-bar{
+	width: 80px;
+	height: 10px;
+	border-bottom: 0.4px solid gray;
+	margin: 0 auto;
+}
+.paragraph {
+	margin: 0 auto;
+	font-size: 0.8em;
+	opacity: 0.6;
+	text-align: center;
+	max-width: 500px;
+}
+.tech{
+	height: 150px;
+	width: 150px;
+}
+.four.wide.column {
+	text-align: center;
+}
+
+#description{
+	font-size: 12px;
+	opacity: 0.8;
+	margin-top: 0;
+	margin-left: 0;
+}
+#face {
+	margin-top: 15px;
+	margin-bottom: 15px; 
+	height: 200px;
+	width: 200px;
+	border-radius: 5%;
+}
+#tech {
+	margin-top: 50px;
+	margin-left: 15px;
+}
+
+/*Projects*/
+.project-img{
+	height: 350px;
+	width: 450px;
+}
+.eight.wide.column.project{
+	padding-left: 70px;
+}
+#projects {
+	background-color: lightgray;
+	margin-top: 40px;
+	padding-top: 25px;
+	padding-bottom: 100px;
+} 
+#projects-container {
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*Contact*/
+.ui.form .field .myLabel {
+	color: violet;
+}
+#contact-form-container {
+	width: 480px;
+	margin-top: 40px;
+}
+
+/*Mobile*/
+@media(max-width: 500px) {
+	section {
+		padding-top: 50px;
+	}
+	span {
+		padding-bottom: 0.5em;		
+	}
+	.ui.menu .item {
+		float: right;
+	}
+	.ui.menu a.item  {
+		float: left;
+	}
+	.ui.floating.dropdown a {
+		color: #383838;
+	}
+	.project-img{
+		height: 440px;
+		width: 350px;
+	}
+	.mobile-name.name{
+		margin-top: 60px;
+		margin-left: 115px;
+	}
+	#headerMain {
+		display: none;
+	}
+	#dropdown{
+		display: block;
+	}
+	#bottom_mobile{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 0;
+		margin-top: 20px;
+		border-radius: 0;
+	}
+	#bottom_mobile.icon {
+		padding-left: -50px;
+	}
+	 #name {
+		float: left;
+	}
+}
+
